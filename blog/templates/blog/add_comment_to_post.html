@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+
+{% block maincontent %}
+<h2>What do you think about: "{{ post }}"</h2>
+<form method="post" class="post-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-secondary">Send</button>
+</form>
+{% endblock %}

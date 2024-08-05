@@ -1,8 +1,8 @@
 .page-header {
     background-color: #C25100;
     margin-top: 0;
-    margin-bottom: 40px;
-    padding: 20px 20px 20px 40px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 5px;
 }
 
 .page-header h1,
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: cursive;
 }
 
 .date {
@@ -41,6 +41,7 @@ h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    display: contents;
 }
 
 .post {
@@ -67,4 +68,8 @@ h4 {
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
